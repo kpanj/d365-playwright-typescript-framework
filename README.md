@@ -61,10 +61,10 @@ CRMAutomationInterview/
 ### 2. Environment Variables (.env)
 Create a `.env` file in the root directory:
 ```ini
-D365_ORG_URL=https://org39107662.crm8.dynamics.com
+D365_ORG_URL=https://your-org.crm8.dynamics.com
 D365_APP_ID=47398771-c64c-f111-bec6-7ced8daf1936
-D365_USERNAME=DemoUser@Indivitual633.onmicrosoft.com
-D365_PASSWORD="September@2026#$"
+D365_USERNAME=your-username@yourdomain.onmicrosoft.com
+D365_PASSWORD="YourSecurePasswordHere#$"
 ```
 > **Note:** Enclose passwords containing `#` in double quotes to prevent dotenv inline comment truncation.
 
